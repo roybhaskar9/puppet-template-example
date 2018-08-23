@@ -1,0 +1,8 @@
+Greetings from template!
+TestVariable: <%= @testVariable %>
+Operating system release = <%= @operatingsystemrelease %>
+<% if @operatingsystemrelease != "18.04y" -%>
+     Time to change to a new release?
+<% else -%>
+     You have the newest release!
+<% end -%>
